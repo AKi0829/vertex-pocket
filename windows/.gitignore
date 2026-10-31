@@ -1,0 +1,14 @@
+_deps/
+build/
+dist/
+__pycache__/
+*.pyc
+*.spec
+*.exe
+*.zip
+*.bin
+*.tmp
+credentials*.json
+*service-account*.json
+.env
+.env.*
