@@ -1,0 +1,20 @@
+# Local build dependencies and generated files
+tools/
+build/
+__pycache__/
+*.pyc
+
+# Signing keys and private configuration must never be committed
+*.p12
+*.jks
+*.keystore
+credentials*.json
+*service-account*.json
+caller-keys.json
+.env
+.env.*
+
+# APK and source archives are published as Release assets
+*.apk
+*.idsig
+*.zip
